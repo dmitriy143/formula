@@ -27,7 +27,6 @@ document.querySelector(".container .container-event").addEventListener("input", 
   if (ev.target === height) {
     heightV = Number(ev.target.value)
   }
-
   formula(d1V, d2V, widthV, heightV)
 })
 
