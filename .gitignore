@@ -1,0 +1,6 @@
+node_modules
+_src
+coppyGit
+gulpfile.js
+package.json
+package-lock.json
