@@ -5,3 +5,8 @@ gulpfile.js
 package.json
 package-lock.json
 .gitignore
+formula
+!formula\css\
+!formula\img\
+!formula\js\
+!formula\index.html
