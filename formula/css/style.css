@@ -7,13 +7,12 @@
 
 html,
 body {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
 }
 
 img {
@@ -32,8 +31,12 @@ input[type=submit] {
   cursor: pointer;
 }
 
+input[type=search] {
+  border: none;
+}
+
 .container {
-  max-width: 63.3333rem;
+  max-width: 86.4286rem;
   margin: auto;
   padding: 0 15px;
 }
@@ -42,13 +45,57 @@ input[type=submit] {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.5556rem;
-  line-height: 2rem;
+  font-size: 2rem;
+  line-height: 2.5714rem;
 }
 
-@media (max-width: 600px) {
-  html,
-  body {
-    font-size: 16px;
-  }
+.search {
+  margin-top: 7.1429rem;
+  background: #2347A6;
+  padding: 1.4286rem 0;
+}
+
+.search-field {
+  position: relative;
+}
+
+.search-field input {
+  width: 100%;
+  line-height: 1.1429rem;
+  padding: 1.0714rem 1.7857rem;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.search-field input::-webkit-input-placeholder {
+  font-size: 1rem;
+}
+
+.search-field input::-moz-placeholder {
+  font-size: 1rem;
+}
+
+.search-field input:-ms-input-placeholder {
+  font-size: 1rem;
+}
+
+.search-field input::-ms-input-placeholder {
+  font-size: 1rem;
+}
+
+.search-field input::placeholder {
+  font-size: 1rem;
+}
+
+.search-field::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 2.1429rem;
+  height: 2.1429rem;
+  top: 0.5714rem;
+  right: 2.8571rem;
+  background: url("../img/search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }

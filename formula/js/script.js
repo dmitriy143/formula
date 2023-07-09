@@ -42,3 +42,7 @@ function formula(d1V, d2V, widthV, heightV) {
 
 formula(d1V, d2V, widthV, heightV)
 
+let x = 2;
+
+console.log(x === 1 ? true : false)
+console.log(x || 0)
