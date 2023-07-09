@@ -99,3 +99,8 @@ input[type=search] {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.drawing-h2 {
+  font-size: 2.5714rem;
+  line-height: 2.7143rem;
+}
