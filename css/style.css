@@ -103,4 +103,28 @@ input[type=search] {
 .drawing-h2 {
   font-size: 2.5714rem;
   line-height: 2.7143rem;
+  margin-top: 2.1429rem;
+  margin-bottom: 1.4286rem;
+}
+
+.card-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  width: 20rem;
+}
+
+.date,
+.name {
+  font-size: 1.1429rem;
+  line-height: 1.2857rem;
+  margin: 0.7143rem 0;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.1429rem;
 }
